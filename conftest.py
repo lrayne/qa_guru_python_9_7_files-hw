@@ -19,4 +19,4 @@ def given_zip_file():
 
     yield
 
-    # shutil.rmtree(ZIPPED_PATH)
+    shutil.rmtree(ZIPPED_PATH)
