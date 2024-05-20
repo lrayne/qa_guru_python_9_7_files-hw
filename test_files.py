@@ -26,7 +26,7 @@ def test_third_row_sixth_cell_should_have_france():
             assert third_row[5] == 'France'
 
 
-def test_secod_row_third_column_should_have_male():
+def test_second_row_third_column_should_have_male():
     with zipfile.ZipFile(ZIPPED_RESOURCES) as zip_file:
         with zip_file.open('lorem.xlsx') as file:
             workbook = load_workbook(file)
